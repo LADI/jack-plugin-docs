@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JACK Plugin Launcher: JACK Plugin Launcher</title>
+<title>JACK Plugin Launcher: build Directory Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -52,7 +52,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -74,51 +73,15 @@ $(function() {
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">JACK Plugin Launcher </div></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4fef79e7177ba769987a8da36c892c5f.html">build</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">build Directory Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
-JACK Plugin Launcher</h1>
-<p>A project for providing improved environment that is well suited for applications in a JACK Audio Connection Kit modular system.</p>
-<p>Jack Plugin is a term for libjack.so linked program that executes in one or more dedicated processes.</p>
-<p>Goals:</p><ul>
-<li>For improved DSP performance and recovery from crashes that occured in the UI parts of the Jack Plugins, JACK Plugins are facilitated to run with separate DSP and UI OS-level processes.</li>
-<li>Multi-protocol session management approach,like the one used in LADISH implementation of liblash and in nsm-proxy used in NON Session, RaySession &amp; New Session management systems, for handling incompatibilities between session managers and apps (out of process plugins) and providing better overal experience in modular systems using jack programs for a diverse set of sesison management protocols.</li>
-<li>Possibility for each Jack Plugin to have multiple DSP backends. Some projected backend ideas:<ul>
-<li>non-optimized code that runs on any compatible CPU of given ISA</li>
-<li>optimized code that runs only on matching CPUs</li>
-<li>code optimized for running on iGPU or dGPU</li>
-<li>code for running in possible future implementation of jack server in kernel mode.</li>
-<li>Source code to build during load (FAUST, llvm, etc.)</li>
-</ul>
-</li>
-<li>Possibility for each Jack Plugin to have multiple UI frontends. Some projected frontend ideas:<ul>
-<li>X11 UI</li>
-<li>ncurses (with optional sixel support) UI, via tmux or screen</li>
-<li>(HTTP) Web UI</li>
-<li>GPU accelerated UI for GLX</li>
-<li>GPU accelerated UI for Wayland</li>
-<li>GPU accelerated UI for EGL and linux framebuffer</li>
-</ul>
-</li>
-<li>Settings for tweaking desired behaviour. (Good) built-in defaults and system-wide (/etc), user-wide (~/) and per session managment project overrides of the settings. Some projected ideas for settings:<ul>
-<li>Order of preference for backends</li>
-<li>Order of preference for frontends</li>
-<li>Tweaks for LD_LIBRARY_PATH and other environment variables</li>
-<li>whether to use tmux, screen or some other terminal emulator like xterm (X11) for starting new command-line shell or ncruses UI.</li>
-</ul>
-</li>
-<li>Execution on other machine in the network, via ssh/libssh/gabriel. Facilitate public / private key setup for such deployments.</li>
-</ul>
-<p>For installation instructions, read the doc/INSTALL.rst file. If you are a (linux or libre) distribution packager, read the doc/PACKAGING.rst file.</p>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Source code</h2>
-<ul>
-<li><a href="https://gitea.ladish.org/LADI/jpl">https://gitea.ladish.org/LADI/jpl</a> (Git)</li>
-<li><a href="https://github.com/LADI/jack-plugin-launcher">https://github.com/LADI/jack-plugin-launcher</a> (GitHub, old, possibly not up-to-date, backup repo) </li>
-</ul>
-</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

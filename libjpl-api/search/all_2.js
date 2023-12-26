@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unused_0',['unused',['../structjpl__child__tag.html#ac72a9b79ab715b586b1b01e28efba90f',1,'jpl_child_tag']]]
+  ['launcher_0',['launcher',['../index.html',1,'JACK Plugin Launcher'],['../index.html#autotoc_md0',1,'JACK Plugin Launcher']]],
+  ['loader_2eh_1',['loader.h',['../loader_8h.html',1,'']]]
 ];
