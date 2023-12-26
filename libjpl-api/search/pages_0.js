@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jack_20plugin_20launcher_0',['JACK Plugin Launcher',['../index.html',1,'']]]
+  ['main_20page_0',['Main page',['../index.html',1,'']]]
 ];
